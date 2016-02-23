@@ -24,6 +24,17 @@ public class pauseMenu : MonoBehaviour {
 	}
 	
 	public void MainMenuPress(){
+
+		StartCoroutine ("Wait");
+
+	}
+
+	IEnumerator Wait(){
+
+		float fadeTime = GameObject.Find ("GameController").GetComponent<FadeTransition>().BeginFade(1);
+		yield return new WaitForSeconds(3);
+		yield return new WaitForSeconds(fadeTime);
 		Application.LoadLevel(0);
+
 	}
 }

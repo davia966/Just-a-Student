@@ -9,7 +9,7 @@ public class startMenu : MonoBehaviour {
 	public Button exitText;
 
 	public AudioSource introMusic;
-	public float fadeSpeed = 5f;
+	public float fadeSpeed = 10f;
 	public bool startFade = false;
 	float time = 0f;
 
@@ -62,7 +62,11 @@ public class startMenu : MonoBehaviour {
 
 	IEnumerator Wait(){
 
+		float fadeTime = GameObject.Find ("GameController").GetComponent<FadeTransition>().BeginFade(1);
 		yield return new WaitForSeconds(5);
-		Application.LoadLevel(1);
+		//float fadeTime = GameObject.Find ("GameController").GetComponent<FadeTransition>().BeginFade(1);
+		yield return new WaitForSeconds(fadeTime);
+
+		Application.LoadLevel(Application.loadedLevel + 1);
 	}
 }
