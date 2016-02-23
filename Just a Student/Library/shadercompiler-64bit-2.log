@@ -1095,3 +1095,63 @@ Cmd: compileSnippet
   api=0 type=0 insize=5839 outsize=2471 kw=LIGHTMAP_OFF DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON HDR_LIGHT_PREPASS_OFF pd= ok=1
 Cmd: compileSnippet
   api=0 type=1 insize=5839 outsize=6 kw=LIGHTMAP_OFF DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON HDR_LIGHT_PREPASS_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10255 outsize=5761 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10255 outsize=5602 kw=WATER_SIMPLE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10255 outsize=4455 kw=WATER_REFLECTIVE WATER_EDGEBLEND_ON WATER_VERTEX_DISPLACEMENT_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10255 outsize=4590 kw=FOG_LINEAR WATER_SIMPLE WATER_EDGEBLEND_ON WATER_VERTEX_DISPLACEMENT_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10255 outsize=3903 kw=FOG_LINEAR WATER_REFLECTIVE WATER_EDGEBLEND_OFF WATER_VERTEX_DISPLACEMENT_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10255 outsize=6 kw=FOG_LINEAR WATER_SIMPLE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON pd= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10255 outsize=6 kw=WATER_SIMPLE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10255 outsize=6 kw=FOG_LINEAR WATER_SIMPLE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10255 outsize=6 kw=FOG_LINEAR WATER_REFLECTIVE WATER_EDGEBLEND_ON WATER_VERTEX_DISPLACEMENT_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10255 outsize=6 kw=WATER_REFLECTIVE WATER_EDGEBLEND_OFF WATER_VERTEX_DISPLACEMENT_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10255 outsize=6 kw=FOG_LINEAR WATER_REFLECTIVE WATER_EDGEBLEND_OFF WATER_VERTEX_DISPLACEMENT_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10255 outsize=6 kw=FOG_LINEAR WATER_SIMPLE WATER_EDGEBLEND_OFF WATER_VERTEX_DISPLACEMENT_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10261 outsize=5588 kw=FOG_LINEAR WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON pd= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10261 outsize=5048 kw=WATER_SIMPLE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON pd= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10261 outsize=5010 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10261 outsize=4743 kw=WATER_SIMPLE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10261 outsize=3144 kw=WATER_REFLECTIVE WATER_EDGEBLEND_ON WATER_VERTEX_DISPLACEMENT_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10261 outsize=2905 kw=WATER_SIMPLE WATER_EDGEBLEND_ON WATER_VERTEX_DISPLACEMENT_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10261 outsize=2867 kw=WATER_REFLECTIVE WATER_EDGEBLEND_OFF WATER_VERTEX_DISPLACEMENT_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10261 outsize=2600 kw=WATER_SIMPLE WATER_EDGEBLEND_OFF WATER_VERTEX_DISPLACEMENT_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10261 outsize=6 kw=FOG_LINEAR WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON pd= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10261 outsize=6 kw=WATER_SIMPLE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON pd= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10261 outsize=6 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10261 outsize=6 kw=WATER_SIMPLE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10261 outsize=6 kw=FOG_LINEAR WATER_REFLECTIVE WATER_EDGEBLEND_ON WATER_VERTEX_DISPLACEMENT_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10261 outsize=6 kw=WATER_SIMPLE WATER_EDGEBLEND_ON WATER_VERTEX_DISPLACEMENT_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10261 outsize=6 kw=WATER_REFLECTIVE WATER_EDGEBLEND_OFF WATER_VERTEX_DISPLACEMENT_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10261 outsize=6 kw=WATER_SIMPLE WATER_EDGEBLEND_OFF WATER_VERTEX_DISPLACEMENT_OFF pd= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10030 outsize=2507 kw=FOG_LINEAR pd= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10030 outsize=6 kw=FOG_LINEAR pd= ok=1
